@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div class="navbar flex justify-between items-center p-4">
+      <div class="flex items-center md:order-2">
+        <div class="hamburger cursor-pointer md:hidden">
+          <div class="line w-6 h-0.5 bg-slate-700 m-1"></div>
+          <div class="line w-6 h-0.5 bg-slate-700 m-1"></div>
+          <div class="line w-6 h-0.5 bg-slate-700 m-1"></div>
+        </div>
+        <div class="serach md:hidden">SerachIcon</div>
+      </div>
+      <div class="logo flex text-center md:order-1">
+        <div class="md:p-4">
+          <img class="w-24" src="assets/ms-logo.png" alt="" />
+        </div>
+        <div
+          class="features p-4 absolute md:static w-fit bg-slate-200 md:bg-white inset-0 md:flex md:mx-4 md:space-x-2 -translate-x-96 md:translate-x-0"
+        >
+          <div class="fitems">Microsoft 365</div>
+          <div class="fitems">Office</div>
+          <div class="fitems">Windows</div>
+          <div class="fitems">Surface</div>
+          <div class="fitems">Xbox</div>
+          <div class="fitems">Deals</div>
+          <div class="fitems">Small</div>
+          <div class="fitems">Business</div>
+          <div class="fitems">Support</div>
+        </div>
+      </div>
+      <div class="Account md:order-3 flex">
+        <div class="serach hidden md:block">All Microsoft SerachIcon</div>
+        <div>Cart Account</div>
+      </div>
+    </div>
+
+    <div class="container mx-auto">
+      <div class="slider flex flex-col-reverse md:flex-row bg-[#f2f2f2] mx-2">
+        <div
+          class="left flex flex-col justify-center items-center md:items-baseline py-12"
+        >
+          <h1 class="text-2xl font-semibold text-slate-800 md:text-4xl mx-5">
+            Surface Laptop 4
+          </h1>
+          <p class="w-3/4 mx-5 text-center md:text-left">
+            Do it all with a perfect balance of seek, ultra-thin design,
+            multitasking speed and improved performance.
+          </p>
+          <button
+            class="mx-5 btn bg-slate-800 text-white px-4 py-2 my-6 font-bold"
+          >
+            Shop Now
+          </button>
+        </div>
+        <div class="right md:w-[40rem]">
+          <img src="assets/ms_slider.jpeg" alt="" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
